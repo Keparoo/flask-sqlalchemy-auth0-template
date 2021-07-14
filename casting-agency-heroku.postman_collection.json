@@ -1,0 +1,281 @@
+{
+	"info": {
+		"_postman_id": "7c2820fc-38aa-4ff5-bfc5-a7cc4a498cf1",
+		"name": "casting-agency-heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/actors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/actors",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/actors/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/actors/1",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actors",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/actors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Marion Cotillard\",\r\n    \"age\": 46,\r\n    \"gender\": \"female\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/actors",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/actors/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/actors/2",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actors",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/actors/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Timothee Chalamet Updated\",\r\n    \"age\": 26,\r\n    \"gender\": \"male\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/actors/1",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actors",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/movies",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/movies/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/movies/1",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/movies",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"La Vie En Rose\",\r\n    \"release_date\": \"2007-07-20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/movies",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/movies/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/movies/2",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://kep-casting-agency.herokuapp.com/movies/2",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "        {\r\n            \"id\": 1,\r\n            \"release_date\": \"Fri, 19 Jan 2018 00:00:00 GMT\",\r\n            \"title\": \"Call Me By Your Name Updated\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://kep-casting-agency.herokuapp.com/movies/2",
+					"protocol": "https",
+					"host": [
+						"kep-casting-agency",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InNWbGNMV1ZjeWVla3RUMXkzOEQ5RSJ9.eyJpc3MiOiJodHRwczovL3dlYnNlY3VyZS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjBlN2E0ZjEwNGY0OWEwMDZmZTRlNmExIiwiYXVkIjpbImNhc3RpbmctYWdlbmN5IiwiaHR0cHM6Ly93ZWJzZWN1cmUudXMuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTYyNjA0NTkzOCwiZXhwIjoxNjI2MTMyMzM4LCJhenAiOiIxS1lpUVYwNjV0bVFpNzUxM1ZtRDNLYTZUeHZOcHlSbCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6YWN0b3JzIiwiZGVsZXRlOm1vdmllcyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiLCJwb3N0Om1vdmllcyJdfQ.T-Eq2Fya_I1VIPhTRncMk58bNU4EsNpVWtYNXBk829DNQLfJR94e2DDnezgtHVUCJcL5lwjhalKAuM2kjmBvig6J3ms9kKhqW68tX_hlLZj4kxjCWcjh9X9RTgCapVale0X7rknvyntW1--hLD1sA9_L2x047sNU9c_m_00qzRuOz7ZNOWJjVIPt8KnM6c9wFyor1H1oRyb1JcGk81sDNsy9lse5zW2-cvAxqMD9CYb3lpKk6si1z5_TjEXoYGK6RsErIoNjzIzCZH20e6OB-UarSZoBoRc-uHxhW2TxhfB8taaZtQNNCv-Uozf3CYBS08QamU9q_nY0Yac3Eq8s8A",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
