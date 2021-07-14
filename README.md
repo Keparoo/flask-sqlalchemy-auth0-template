@@ -128,6 +128,11 @@ To use them install [Postman](https://www.postman.com/downloads/) locally and im
 
 This project is deployed to [Heroku](https://heroku.com). To Deploy your own version:
 - You must have Git installed and your project must be tracked in a repository
+- Gunicorn must be pip installed and a `Procfile` be present in the main directory:
+    The `Procfile` must contain:
+```
+web: gunicorn app:APP
+```
 - Install Heroku locally: https://devcenter.heroku.com/articles/heroku-cli
 - Create your heroku app:
 ```bash
